@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Lagging Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Slow-Mo News Feed</h1>
+        <button id="fetchBtn">Load Content</button>
+        
+        <div id="loader" class="hidden">
+            <div class="skeleton-card"></div>
+            <p>Simulating a 3-second lag...</p>
+        </div>
+
+        <div id="content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
